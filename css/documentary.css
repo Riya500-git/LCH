@@ -23,6 +23,7 @@
 body{
 	font-family: 'Merriweather', serif;
   background-color: #444444;
+  /* background-color: #0f141f; */
 }
 
 .header  .logo i{
@@ -186,4 +187,18 @@ body{
   /* color: #fff; */
   cursor: pointer;
   display: inline-block;
+}
+
+.theme{
+  background-color: #192133;
+  color: #ffffffcc;
+}
+
+.theme a:hover{
+  background-color: #121926;
+  /* background-color: #444; */
+}
+
+.theme::-webkit-scrollbar {
+  display: none;
 }
