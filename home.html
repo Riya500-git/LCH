@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Lights, Camera, Hacktion!</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="css/styles.css" rel="stylesheet">
-    <script src="js/main.js"></script>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="js/jquery-func.js"></script>
+  <meta charset="utf-8">
+  <title>Lights, Camera, Hacktion!</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-func.js"></script>
 </head>
 
 <body>
@@ -18,14 +18,17 @@
       <h2 class="logo">POPCOVERY</h2>
       <div class="toggle"></div>
     </header>
-    <video src="https://youtu.be/HCUpFV7AQ4U" muted loop autoplay></video>
-    <div class="overlay"></div>
-    <div class="text">
-      <h2>Welcome to</h2> 
-      <h3>Pick Your mood Peaks</h3>
-      <p>Join Us to watch the latest movies, Documentaries and amazing Comedy Originals!
-        Your membership now also includes ad-free documentaries, exclusive access to deals & more.</p>
-      <a href="#">GET STARTED</a>
+    <div>
+      <video src="https://youtu.be/HCUpFV7AQ4U" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Welcome to</h2>
+        <h3>Pick Your mood Peaks</h3>
+        <p>Join Us to watch the latest movies, Documentaries and amazing Comedy Originals!
+          Your membership now also includes ad-free documentaries, exclusive access to deals & more.</p>
+        <a href="#shell">GET STARTED</a>
+      </div>
+      
     </div>
     <ul class="social">
       <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
@@ -37,42 +40,44 @@
       <li><a href="#">SignUp/SignIn</a></li>
     </ul>
   </div>
-  
-<div id="shell">
-  <div id="header">
-    <div id="sub-navigation">
-      <ul>
-        <li><a href="#">TOP RATED</a></li>
-        <li><a href="#">MOST COMMENTED</a></li>
-        <li><a href="#">SHOW ALL</a></li>
-      </ul>
-      <div id="search">
-        <form action="#" method="get" accept-charset="utf-8">
-          <label for="search-field">SEARCH</label>
-          <input type="text" name="search field" value="Enter search here" id="search-field" class="blink search-field"  />
-          <input type="submit" value="GO" class="search-button" />
-        </form>
-      </div>
-    </div>
-  </div>
-  <div id="main">
-    <div id="content">
-      <div class="box" id="top-rated">
-        <div class="head">
-          <h1>TOP RATED</h1>
-          <p class="text-right"><a href="#">See all</a></p>
-        </div>
-      </div>
-      <div class="box" id="most-commented">
-        <div class="head">
-          <h1>MOST COMMENTED</h1>
-          <p class="text-right"><a href="#">See all</a></p>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</div>
 
+  <div id="shell">
+    <div id="header">
+      <div id="sub-navigation">
+        <ul>
+          <li><a href="#">TOP RATED</a></li>
+          <li><a href="#">MOST COMMENTED</a></li>
+          <li><a href="#">SHOW ALL</a></li>
+        </ul>
+        <div id="search">
+          <form action="#" method="get" accept-charset="utf-8">
+            <label for="search-field">SEARCH</label>
+            <input type="text" name="search field" value="Enter search here" id="search-field"
+              class="blink search-field" />
+            <input type="submit" value="GO" class="search-button" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="content">
+        <div class="box" id="top-rated">
+          <div class="head">
+            <h1>TOP RATED</h1>
+            <p class="text-right"><a href="#">See all</a></p>
+          </div>
+        </div>
+        <div class="box" id="most-commented">
+          <div class="head">
+            <h1>MOST COMMENTED</h1>
+            <p class="text-right"><a href="#">See all</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/catogories.js"></script>
 </body>
+
 </html>

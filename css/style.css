@@ -70,6 +70,7 @@ h4 {
 #shell {
 	width:980px;
 	margin:0 auto;
+	box-sizing: unset;
 }
 #header {
 	position:relative;
